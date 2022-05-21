@@ -1,1 +1,15 @@
-# [16,21,11,8,12,22]
+### [16,21,11,8,12,22]
+
+**Yukarı verilen dizinin merge sort türüne göre aşamalarını yazınız.**
+
+[16,21,11,8,12,22]
+[16,21,11] ve [8,12,22]
+[16,21] ve [11] ve [8,12] ve [22]
+[16] ve [21] ve [11] ve [8] ve [12] ve [22]
+[16,21] ve [11] ve [8,12] ve [22]
+[11,16,21] ve [8,12,22]
+[8,11,12,16,21,22]
+
+Big-O gösterimini yazınız.
+O (nlogn) olacağı için 
+n=6'dan O(~4,67) olacaktır.
