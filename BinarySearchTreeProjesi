@@ -1,0 +1,14 @@
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+
+Örnek: root x'dir. root'un sağından y bulunur. Solunda z bulunur vb.
+
+root 5'dir.
+
+    ________________5________________
+      2____3_____4      6_____7_____8
+  1                                    9
+0
+
+Root 5'dir ortalama değer gibi düşünerek minimum yolu oluşturabilecek şekilde yerleştirdim. 
+5'in sağındaki bir sonraki kök 7; yedi sayısının sağında 8, solunda 6 var. Ve 8'in sağında da 9 var.
+5'in sağındaki bir sonraki kök 3; üç sayısının sağında 4, solunda 2 var. Ve 1, değilse bir sonraki sorgulamada 0 var.
