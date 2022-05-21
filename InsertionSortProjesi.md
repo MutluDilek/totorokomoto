@@ -1,3 +1,5 @@
+### Insertion Sort 
+
 [22,27,16,2,18,6]
 
 **Yukarı verilen dizinin ınsertion sort türüne göre aşamalarını yazınız.**
@@ -27,6 +29,9 @@ Worst case, tam ters dizilime sahip dizinin gelmesidir, tüm elemanlar tek tek d
 Dizinin sıralanmış hali:
 [2,6,16,18,22,27]
 olduğu için 18 sayısının yerleşimi tam sıralı liste dışında kalır ve avarage case ve worst case kapsamına girer.  
+
+
+### Insertion Sort'a Göre İlk 4 Adım
 
 **[7,3,5,8,2,9,4,15,6] dizisinin Insertion Sort'a göre ilk 4 adımını yazınız.**
 
